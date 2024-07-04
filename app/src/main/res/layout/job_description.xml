@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/gradient"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Job Description"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/z1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top"
+        android:text="Job Summary"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="25dp"
+        android:paddingStart="5dp"/>
+    <TextView
+        android:id="@+id/z2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/z1"
+        android:text="Coaching Name :"
+        android:textColor="#363636"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:id="@+id/z3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/z1"
+        android:layout_toRightOf="@id/z2"
+        android:text="Vibration Academy"
+        android:textColor="#363636"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:id="@+id/z4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/z2"
+        android:text="Job Role :"
+        android:textColor="#363636"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:id="@+id/z5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/z2"
+        android:layout_toRightOf="@id/z4"
+        android:text="Physics Faculty"
+        android:textColor="#363636"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:id="@+id/z6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/z4"
+        android:text="Salary :"
+        android:textColor="#363636"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:id="@+id/z7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/z4"
+        android:layout_toRightOf="@id/z6"
+        android:text="16-20 LPA"
+        android:textColor="#363636"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:id="@+id/z8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/z6"
+        android:text="Location :"
+        android:textColor="#363636"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="15dp"/>
+    <TextView
+        android:id="@+id/z9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/z6"
+        android:layout_toEndOf="@id/z8"
+        android:text="Bharuch , Gujarat"
+        android:textColor="#363636"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:id="@+id/z10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/z8"
+        android:text="Job Description"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:paddingStart="5dp"/>
+    <TextView
+        android:id="@+id/z11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/z10"
+        android:text="Highly skilled teachers with proficiency in their subjects and a high level of recognition and acceptance among the students will be preffered."
+        android:textColor="#363636"
+        android:lineSpacingExtra="3dp"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"/>
+
+    <TextView
+        android:id="@+id/z12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/z11"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:paddingStart="15dp"
+        android:text="Experience : 5-6 Years"
+        android:textColor="#363636"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/z13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/z12"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:textColor="#363636"
+        android:text="Level : JEE MAINS / NEET"
+        android:paddingStart="15dp"/>
+    <TextView
+        android:id="@+id/z14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/z13"
+        android:layout_marginTop="5dp"
+        android:paddingStart="15dp"
+        android:textSize="15sp"
+        android:textColor="#363636"
+        android:text="Joining : Immediate"/>
+
+    <Button
+        android:id="@+id/apply"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="15dp"
+        android:shadowColor="@color/grey"
+        android:background="@color/primary"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:text="Apply on Whatsapp"/>
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Saved">
+    <include layout="@layout/top_bar_saved"
+        android:id="@+id/top_bar_saved"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:text="Settings"
+        android:textSize="22.5sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginLeft="15dp"/>
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="125dp"
+        android:drawableStart="@drawable/big_person"
+        android:paddingStart="15dp"
+        android:text="Edit Profile"
+        android:textAlignment="textStart"
+        android:drawablePadding="15dp"
+        android:textColor="#363636"
+        android:drawableEnd="@drawable/editter"
+        android:paddingEnd="25dp"/>
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="185dp"
+        android:drawableStart="@drawable/file"
+        android:paddingStart="15dp"
+        android:text="Upload your Resume"
+        android:textAlignment="textStart"
+        android:drawablePadding="15dp"
+        android:textColor="#363636"
+        android:drawableEnd="@drawable/editter"
+        android:paddingEnd="25dp"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="255dp"
+        android:paddingEnd="40dp"
+        android:paddingStart="10dp"
+        android:gravity="end"
+        android:outlineSpotShadowColor="@color/primary"/>
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="245dp"
+        android:drawableStart="@drawable/notifications"
+        android:paddingStart="15dp"
+        android:text="Notification"
+        android:textAlignment="textStart"
+        android:drawablePadding="15dp"
+        android:textColor="#363636"
+        android:paddingEnd="25dp" />
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="305dp"
+        android:drawableStart="@drawable/big_person"
+        android:paddingStart="15dp"
+        android:text="Contact Us"
+        android:textAlignment="textStart"
+        android:drawableEnd="@drawable/end"
+        android:drawablePadding="15dp"
+        android:textColor="#363636"
+        android:paddingEnd="25dp" />
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="365dp"
+        android:drawableStart="@drawable/exit"
+        android:paddingStart="15dp"
+        android:text="Logout"
+        android:textAlignment="textStart"
+        android:drawablePadding="15dp"
+        android:textColor="#363636"
+        android:drawableEnd="@drawable/end"
+        android:paddingEnd="25dp"/>
+
+</FrameLayout>

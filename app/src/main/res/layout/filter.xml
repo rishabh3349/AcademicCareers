@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/gradient"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Select filters"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/x1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location :"
+        android:layout_below="@id/top"
+        android:layout_marginTop="15dp"
+        android:paddingStart="15dp"
+        android:textSize="17.5sp"
+        android:textColor="#363636"/>
+    <EditText
+        android:id="@+id/ett1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/x1"
+        android:background="@drawable/et2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter preferred location"
+        android:textSize="15sp"
+        android:textColor="#363636"
+        android:paddingStart="15dp"/>
+    <TextView
+        android:id="@+id/x2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maximum Salary :"
+        android:layout_below="@id/ett1"
+        android:layout_marginTop="15dp"
+        android:paddingStart="15dp"
+        android:textSize="17.5sp"
+        android:textColor="#363636"/>
+    <EditText
+        android:id="@+id/ett2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/x2"
+        android:background="@drawable/et2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Maximum Salary"
+        android:textSize="15sp"
+        android:textColor="#363636"
+        android:paddingStart="15dp"/>
+    <TextView
+        android:id="@+id/x3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Minimum Salary :"
+        android:layout_below="@id/ett2"
+        android:layout_marginTop="15dp"
+        android:paddingStart="15dp"
+        android:textSize="17.5sp"
+        android:textColor="#363636"/>
+    <EditText
+        android:id="@+id/ett3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/x3"
+        android:background="@drawable/et2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Minimum Salary"
+        android:textSize="15sp"
+        android:textColor="#363636"
+        android:paddingStart="15dp"/>
+    <TextView
+        android:id="@+id/x4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject :"
+        android:layout_below="@id/ett3"
+        android:layout_marginTop="15dp"
+        android:paddingStart="15dp"
+        android:textSize="17.5sp"
+        android:textColor="#363636"/>
+    <EditText
+        android:id="@+id/ett4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/x4"
+        android:background="@drawable/et2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Ex. Physics , Chemistry or Maths"
+        android:textSize="15sp"
+        android:textColor="#363636"
+        android:paddingStart="15dp"/>
+    <Button
+        android:id="@+id/searchh"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:background="@color/primary"
+        android:text="Search"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

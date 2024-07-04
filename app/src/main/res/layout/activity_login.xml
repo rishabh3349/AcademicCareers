@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/y1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="75dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Academic"
+        android:textColor="#8B3535"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/y2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:gravity="center"
+        android:layout_toRightOf="@id/y1"
+        android:paddingStart="15dp"
+        android:text="Careers"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/y3"
+        android:layout_width="186dp"
+        android:layout_height="184dp"
+        android:layout_below="@id/y1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/y4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/y3"
+        android:text="Login"
+        android:layout_marginTop="25dp"
+        android:textSize="22sp"
+        android:textColor="#363636"
+        android:paddingStart="15dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"/>
+    <TextView
+        android:id="@+id/y5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/y4"
+        android:text="Login to your account and find millions of job opportunities."
+        android:textColor="#48494B"
+        android:layout_marginTop="8dp"
+        android:textSize="14.6sp"
+        android:paddingStart="15dp"/>
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/y5"
+        android:background="@drawable/et2"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:hint="Enter your Number"
+        android:fontFamily="sans-serif"
+        android:paddingStart="15dp"
+        android:inputType="number"
+        android:maxLength="10"/>
+    <Button
+        android:id="@+id/requestOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@color/primary"
+        android:text="GET OTP"
+        android:textColor="@color/white"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"/>
+    <ProgressBar
+        android:id="@+id/phoneProgressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_below="@id/requestOTP"
+        android:layout_marginTop="40dp"/>
+
+</RelativeLayout>

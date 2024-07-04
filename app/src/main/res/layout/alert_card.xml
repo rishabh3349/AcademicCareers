@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:cardElevation="5dp"
+        android:defaultFocusHighlightEnabled="true"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp">
+        <TextView
+            android:id="@+id/a1"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="Physics Faculty JEE/NEET needed in Vibration Academy "
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/a2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location : Bharuch , Gujarat"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="25dp"
+            android:textSize="12sp"
+            android:textColor="#363636"/>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

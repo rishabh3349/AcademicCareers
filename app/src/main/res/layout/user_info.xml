@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/gradient"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Enter your Details"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/x1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:layout_below="@id/top"
+        android:layout_marginTop="15dp"
+        android:paddingStart="15dp"
+        android:textSize="17.5sp"
+        android:textColor="#363636"/>
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/x1"
+        android:background="@drawable/et2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter your Full Name"
+        android:textSize="15sp"
+        android:textColor="#363636"
+        android:paddingStart="15dp"/>
+    <TextView
+        android:id="@+id/x2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email :"
+        android:layout_below="@id/et1"
+        android:layout_marginTop="15dp"
+        android:paddingStart="15dp"
+        android:textSize="17.5sp"
+        android:textColor="#363636"/>
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/x2"
+        android:background="@drawable/et2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter your Email Address"
+        android:textSize="15sp"
+        android:textColor="#363636"
+        android:paddingStart="15dp"/>
+    <TextView
+        android:id="@+id/x3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Salary :"
+        android:layout_below="@id/et2"
+        android:layout_marginTop="15dp"
+        android:paddingStart="15dp"
+        android:textSize="17.5sp"
+        android:textColor="#363636"/>
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/x3"
+        android:background="@drawable/et2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter your Current Salary"
+        android:textSize="15sp"
+        android:textColor="#363636"
+        android:paddingStart="15dp"
+        android:inputType="number"/>
+    <TextView
+        android:id="@+id/x4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expected Salary :"
+        android:layout_below="@id/et3"
+        android:layout_marginTop="15dp"
+        android:paddingStart="15dp"
+        android:textSize="17.5sp"
+        android:textColor="#363636"/>
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/x4"
+        android:background="@drawable/et2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter your Expected Salary"
+        android:textSize="15sp"
+        android:textColor="#363636"
+        android:paddingStart="15dp"
+        android:inputType="number"/>
+    <TextView
+        android:id="@+id/x5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload your resume :"
+        android:layout_below="@id/et4"
+        android:layout_marginTop="15dp"
+        android:paddingStart="15dp"
+        android:textSize="17.5sp"
+        android:textColor="#363636"/>
+    <EditText
+        android:id="@+id/et5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/x5"
+        android:background="@drawable/et2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Upload link to your resume"
+        android:textSize="15sp"
+        android:textColor="#363636"
+        android:paddingStart="15dp"/>
+    <Button
+        android:id="@+id/next_page"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:background="@color/primary"
+        android:text="Save"
+        android:textColor="@color/white"/>
+</RelativeLayout>
